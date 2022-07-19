@@ -1,7 +1,10 @@
 # swisschess
 Bốc thăm hệ thụy sĩ cho đấu giải cờ vua
+
 Object: Người chơi, gồm tên,STT,Ván 1-7 array, bao gồm [trắng/đen;thắng/hòa/thua],điểm,hệ số
+
 Pairing ngẫu nhiên ván đầu tiên của cặp 1-1
+
 Sau mỗi ván đấu, thực hiện pairing bao gồm điểm rồi đến hệ số của các cặp từ cao nhất tới thấp nhất
 assign trắng win và đen win hệ số cho mỗi vòng. V1 thấp hơn,V7 cao nhất(vẫn ưu tiên tính điểm trước)
   V1-V7 trắng: 2 4 6 8 10 12 14
