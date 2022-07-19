@@ -9,11 +9,11 @@ Sau mỗi ván đấu, thực hiện pairing bao gồm điểm rồi đến hệ
 
 assign trắng win và đen win hệ số cho mỗi vòng. V1 thấp hơn,V7 cao nhất(vẫn ưu tiên tính điểm trước)
 
-  V1-V7 trắng: 2 4 6 8 10 12 14
+   V1-V7 trắng: 2 4 6 8 10 12 14
   
-  V1-7 đen: 3 5 7 9 11 13 15
+   V1-7 đen: 3 5 7 9 11 13 15
   
-  V1-7 nghỉ: 1 3 5 7 9 11 13
+   V1-7 nghỉ: 1 3 5 7 9 11 13
   
 Cần tìm hiểu các vấn đề
 
@@ -43,16 +43,16 @@ FUnction đen trắng, vòng 1 ngẫu nhiên?
   
 Thứ tự thực hiện 
 
-  1: Lấy các object là người chơi
+    1: Lấy các object là người chơi
   
-  2: Assign hệ số 0.01-0.99 trên dưới ngẫu nhiên
+    2: Assign hệ số 0.01-0.99 trên dưới ngẫu nhiên
   
-  3: Random trắng đen V1
+    3: Random trắng đen V1
   
-  4: Pairing 
+    4: Pairing 
   
-  5: Từ Xn(nhất), check nếu Xn-1 chưa gặp, (pairing,function đen trắng(X,Y) ) tiếp tục xuống dưới
+    5: Từ Xn(nhất), check nếu Xn-1 chưa gặp, (pairing,function đen trắng(X,Y) ) tiếp tục xuống dưới
   
-  6: Xuất bảng ranking, sorting từ cao>hệ số
+    6: Xuất bảng ranking, sorting từ cao>hệ số
   
-  7
+  
